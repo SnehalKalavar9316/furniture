@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+}
+.nav-container{
+    /* background-color:#EFE9E1; */
+    background-color: #0077B6;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    position: relative;
+   
+    height: 120px;
+    
+}
+.logo{
+    height: 120px;
+    border-radius: 50%;
+    
+    
+}
+.nav-links{
+    
+    text-decoration: none; 
+    margin-left: 150px; 
+    padding-bottom: 15px;
+   
+    margin-bottom: 5px;
+    color: black;
+    font-size:25px;
+    
+}
+
+        /* footer */
+.footer-container{
+    position: relative;
+    text-align: center;
+    color: black;
+    display:flex;
+    
+}
+.footer-img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.3;
+   
+}
+.footer-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   position: absolute;
+    bottom: 100px;
+    right: 500px;
+   
+    
+}
+.footer-logo:hover{
+    transform: rotate(20deg);
+}
+.footer-company-info{
+    position: absolute;
+    width: 25%;
+    
+    
+}
+.footer-products{
+    position: absolute;
+    width: 25%;
+    padding-left: 350px;
+}
+.footer-links{
+    position: absolute;
+    width: 25%;
+    padding-left: 550px;
+}
+.footer-company-add{
+    position:absolute;
+    width: 25%;
+    padding-left: 850px;
+}
+
+
+
+
+
+
+
+
+.home-card-container{
+   justify-content: space-around;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    height: auto;
+}
+.card-container{
+   margin: 5px;
+   width: 400px;
+   height: 400px;
+   transition: transform .1s;
+   
+}
+.card-container:hover{
+    transform: scale(1.1);
+
+}
+.tranding-container{
+    display: flex;
+}
+.home-images{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    
+}
+
+                  /* about */
+   .about-container{
+    position: relative;
+   }               
+  .about-img{
+    width: 100%;
+    height: 600px;
+    opacity: 0.4;
+    position:absolute;
+    
+  }    
+  .about-info{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  
+   
+    line-height: 50px;
+  }            
+.about-feature-container{
+    display: flex;
+    
+}
+.freature-card{
+    background-color: #abbdc0;
+    margin: 10px;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.about-feature-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.about-store-container{
+    display: flex;
+}
+.about-img{
+    /* width: 100%; */
+    height: 200px;
+}
+.about-sub-hiding{
+    text-indent: 10%;
+    padding: 10px;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.about-div{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               /* contact */
+.parent-div{
+    display: flex;
+    flex:content;
+    margin: 20px;
+    padding: 20px;
+    height: 450px;
+    
+
+}
+
+.child-1{
+    background-color: #EFE9E1;
+    width: 50%;
+   
+
+   
+   
+}
+.contact-heading{
+    font-family: cursive;
+    padding: 5px;
+}
+.contact-sub-heading{
+    text-align:justify;
+    text-indent:10%;
+    font-size: 25px;
+    padding: 15px;
+   
+
+}
+
+.child-2{
+    background-color: blue;
+    width: 50%;
+   
+}
+.contact-img{
+    width: 100%;
+    height: 450px;
+   
+   
+}
+
+.contact-info-parent-div{
+    display: flex;
+    
+    margin: 20px;
+    padding: 20px;
+   
+    background-color: #EFE9E1;
+    border: 1px solid brown;
+}
+.call-div{
+    border-right: 2px solid black;
+    width: 35%;
+    height: 200px;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+.email-div{
+    border-right: 2px solid black;
+    width: 35%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.chat-div{
+    
+    width: 35%;
+    text-align: center;
+    justify-content: space-around;
+}
+.contact-info-div{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.form-container{
+   
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.contact-form{
+  
+    /* background-color: white; */
+   width: 50%;
+   box-shadow: 1px 1px 1px 1px rgb(147, 148, 148);
+   
+    
+}
+.input{
+   
+    margin: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    width: 350px;
+   
+
+   
+}
+label{
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+.contact-form-btn{
+    background-color: #0077B6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid gold;
+    border-radius: 15px 0 15px 0;
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+.contact-form-btn:hover{
+    background-color: gold;
+    border: 1px solid  #0077B6;
+}
+.contact-div{
+    width: 50%;
+    justify-content: space-around;
+}
+.contact-text{
+    text-align: center;
+    
+}
+.contact-info{
+    text-indent: 20%;
+    padding: 10px;
+}
+.social-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+
+
+
+   
+
+
+
+
+            /* responsive */
+@media only screen and (max-width : 600px) {
+    .nav-links{
+        margin-left: 10px; 
+        padding: 2px;
+        color: black;
+        font-size:25px;
+
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-company-info{
+        position: absolute;
+       
+      
+       
+        
+        
+    }
+    .footer-products{
+        position: absolute;
+        right: 250px;
+       
+       
+    }
+    .footer-links{
+        position: absolute;
+        right: 130px;
+       
+       
+       }
+    .footer-company-add{
+        position:absolute;
+        right: 10px;
+      
+
+    }
+                    /* about-page-responsive */
+        .about-store-container{
+            display: block;
+        }
+        
+        
+     .about-img{
+   
+    width: 100%;
+}
+.about-sub-hiding{
+    text-indent: 10%;
+   
+    /* word-spacing: 10px; */
+    font-size: 20px;
+   
+   
+    
+    
+}
+.about-div{
+    width: 100%;
+    margin: 20px;
+}
+.about-feature-container{
+    display: block;
+    
+}
+.freature-card{
+    background-color: #abbdc0;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+           
+
+
+                        /* contact-page-responsive */
+    .contact-heading{
+        font-family: cursive;
+        padding: 5px;
+    }
+    .contact-sub-heading{
+        text-align:justify;
+        text-indent:10%;
+        font-size: 20px;
+        padding: 15px;
+       
+    
+    }
+    .form-container{
+        box-shadow: 1px 1px 1px 1px rgb(147, 148, 148);
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+    }
+    .contact-form{
+      
+        background-color: white;
+       width: 50%;
+       
+        
+    }
+    .input{
+       
+        margin: 10px;
+        padding: 10px;
+       margin-left: 20px;
+        width: auto;
+       
+    
+       
+    }
+    label{
+      font-weight: bold;
+      margin: 5px;
+      margin-left: 20px;
+      margin-top: 25px;
+      
+    }
+    .contact-form-btn{
+        background-color: #0077B6;
+        color: white;
+        font-weight: bold;
+        border: 2px solid gold;
+        border-radius: 15px 0 15px 0;
+        padding: 15px;
+        margin-left: 50px;
+        cursor: pointer;
+       
+    }
+    .social-text{
+        margin-left: 10px;
+    }
+    .social-img{
+        margin-left: 20px;
+    }
+    
+
+}           
+

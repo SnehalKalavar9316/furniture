@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="Stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Furniture</title>
+
+
+    <script>
+        function storeData(){
+            const name = document.getElementById('name') .vlaue;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            
+            
+            //store value in local storage
+
+          localStorage.setItem('name', name);
+          localStorage.setItem('email', email);
+          localStorage.setItem('phone', phone);
+          localStorage.setItem('message', message);
+          
+          alert("Message Send Successfully");
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <img class="logo" src="../Images/logo.jpg"/>
+        <a href="../index.html" class="nav-links">
+            Home
+        </a>
+
+        <a href="./about.html" class="nav-links">
+            About Us
+        </a>
+
+        <a href="./contact.html" class="nav-links">
+            Contact Us
+        </a>
+
+    </nav>
+
+    <div class="parent-div">
+        <div class="child-1">
+
+            <h1 class="contact-heading">Contact us and get your deal of choice</h1>&nbsp;
+            <p class="contact-sub-heading">Get the information to start decoring your home with us.
+                Little Furniture it easier to do ehat you do best --create.
+                Find answer to your probles or get specific help...
+
+            </p>
+        </div>
+        <div class="child-2">
+            <img class="contact-img" src="../Images/contact-img.jpg"/>
+        </div>
+    </div>
+
+
+    <div class="contact-info-parent-div">
+        <div class="call-div">
+            📱 <br />
+            <h3 class="contact-info-div">CALL NOW !</h3><br />
+            <a style="color: black; text-align: center; padding-left:5px; text-decoration: none;" href="tel:9021528217"> +919021528217</a>
+
+        </div>
+        <div class="email-div ">
+            ✉ <br />
+            <h3 class="contact-info-div"> Send Us An Email<br /></h3>
+            <a  style="color: black; text-align: center; padding-left: 20px; font-size: small;" href="mailto:snehalkalwar@gmail.com">snehalkalwar@gmail.com</a>
+        </div>
+        <div class="chat-div">
+            📝 <br />
+            <h3 class="contact-info-div">Live Chat With Us</h3><br />
+            <p style="color: black; text-align: center; padding-left: 20px; font-size: small;" class="contact-info-div">support LittleFurniture.com</p>
+
+        </div>
+    </div>
+    <div class="form-container">
+        <!-- <h1>Send A Message</h1> -->
+
+        <div class="contact-form">
+            <form>
+                <label>Enter Your Name :</label><br/>
+                <input type="text" class="input"
+                id="name"
+                 value="Your Name"
+                 required/><br/>
+
+
+                 <label>Email :</label><br/>
+                 <input type="email" class="input"
+                 id="email"
+                 value="Your Email Address"
+                 required
+                
+                 /><br/>
+
+                 <label>Phone Number</label><br/>
+                 <input type="tel" class="input"
+                 id="phone"
+                
+                 required/><br/>
+
+                 <label>How Can We Help You</label><br/>
+                 <textarea id="message" class="input"></textarea><br/>
+
+                 <button type="button" onclick="storeData()" class="contact-form-btn">
+                    Get In Touch
+                 </button>
+
+
+
+            </form>
+
+        </div>
+        <div class="contact-div">
+            <h1 class="contact-text"><span style="color: #72383D">Little Furniture </span> is always at your door</h1>
+            <p class="contact-info">Get in touch with your problems and quentions were always ready to make yourself comfortable. Our 24/7 customer service is always at your door...</p>
+            <h3 style="margin-left: 20px;" class="social-text">Socializ With Us:</h3>
+            <a href="www.linkedin.com/in/snehal-kalavar">
+               <img class="social-img" src="../Images/linkedin-img.jpg"/>
+            </a>
+
+            <img class="social-img" src="../Images/inta-img.jpg"/>
+            <img class="social-img" src="../Images/facebook-img.jpg"/>
+
+        </div>
+    </div>
+
+
+    <footer class="footer-container">
+     
+        <img class="footer-img" src="../Images/contact-img.jpg"/>
+        
+         <div class="footer-company-info">
+           <h1>Little Furniture</h1>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus ratione, maxime dolores modi illo facilis. Ratione similique minus veniam deserunt inventore aliquam totam architecto rerum aspernatur. Recusandae, unde eos.
+         </div>
+         <div class="footer-products">
+           <h1>Products</h1>
+           <ul>
+             <li>Beds</li>
+             <li>Sofa's</li>
+             <li>Chair</li>
+             <li>Table</li>
+             <li>Dinnig Set</li>
+           </ul>
+         </div>
+         <div class="footer-links">
+           <h1>Useful Links</h1>
+           <a href="./../index.html">Home</a><br/>
+           <a href="./../Pages/about.html">About</a><br/>
+           <a href="../Pages/contact.html">Contact</a><br/>
+         </div>
+         <div class="footer-company-add">
+           <h1>Adderss</h1>
+           <p>127, Sideup Landmark UK</p>
+         </div>
+       
+   
+     </footer>
+   
+</body>
+
+</html>
